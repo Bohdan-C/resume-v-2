@@ -1,0 +1,15 @@
+.what {
+    /* margin-top: 30px; */
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.title {
+    font-weight: bold;
+  font-size: 18px;
+  color: #1f1f1f;
+  margin-bottom: 30px;
+}
