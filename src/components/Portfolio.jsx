@@ -81,7 +81,7 @@ const StyledPortfolio = styled.section`
   }
 
   span {
-    color: #000000
+    color: #000000;
   }
 `;
 
@@ -96,8 +96,12 @@ const Portf = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 
-  @media (min-width: 1080px) {
+  @media (min-width: 768px) {
+    width: 700px;
     justify-content: flex-start;
+  }
+
+  @media (min-width: 1080px) {
     width: 1050px;
   }
 `;

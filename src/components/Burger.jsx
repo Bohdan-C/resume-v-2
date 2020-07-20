@@ -5,10 +5,10 @@ import RightNav from "./RightNav";
 const StyledBurder = styled.div`
   width: 27px;
   height: 24px;
-  /* position: fixed; */
+  position: fixed;
   top: 25px;
   margin-right: 25px;
-  /* right: 25px; */
+  right: 25px;
   z-index: 20;
   display: grid;
 

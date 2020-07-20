@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import photoMobile from "../assets/images/photoMobile.png";
+import profile2 from "../assets/images/profile2.png";
 import headerBgMobile from "../assets/images/headerBgMobile.png";
 import Navbar from "./Navbar";
 import {Link} from "react-scroll"
@@ -11,7 +11,7 @@ function Header() {
     <StyledHeader>
       <Navbar />
       <Content>
-        <Photo width="180" height="220" src={photoMobile} alt="myphoto" />
+        <Photo src={profile2} alt="myphoto" />
         <Text>
           <Greeting>Hello,</Greeting>
           <Name>I`m Bohdan Churik</Name>
@@ -58,17 +58,14 @@ const Content = styled.div`
   }
 `;
 const Photo = styled.img`
-  /* top: 180px;
-  position: absolute;
-  right: 20px; */
   align-self: center;
   margin-bottom: 20px;
   width: 160px;
   height: 160px;
 
   @media (min-width: 1080px) {
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
   }
 `;
 const Text = styled.div`

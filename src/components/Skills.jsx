@@ -126,7 +126,6 @@ const StyledSkills = styled.section`
     margin-bottom: 10px;
     padding: 5px 10px 5px 10px;
     border-width: 2px;
-    /* border-color: rgb(238, 186, 14); */
     border-color: #1f1f1f;
     border-style: solid;
     border-radius: 10px;
@@ -168,7 +167,6 @@ const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  /* padding: 0 15px 0 20px; */
   width: 300px;
 
   @media (min-width: 768px) {
