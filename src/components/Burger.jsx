@@ -7,13 +7,11 @@ const StyledBurder = styled.div`
   height: 24px;
   position: fixed;
   top: 25px;
-  margin-right: 25px;
   right: 25px;
   z-index: 20;
   display: grid;
 
   @media (min-width: 768px) {
-  margin-right: 25px;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
